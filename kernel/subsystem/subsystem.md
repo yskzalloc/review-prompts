@@ -36,6 +36,7 @@ and symbols regexes.
 | VFS | inode, dentry, vfs_, fs/*.c | vfs.md |
 | LEDs | drivers/leds/, include/linux/leds.h, led_classdev_register, devm_led_classdev_register | leds.md |
 | Locking | spin_lock*, mutex_*, rwsem*, seqlock*, *seqcount* | locking.md |
+| DEPT (Dependency Tracker) | kernel/dependency/, include/linux/dept*.h, CONFIG_DEPT, `dept_`, `sdt_`, `ldt_`, `DEPT_MAP_INITIALIZER`, `init_completion_dmap`, `pg_locked_map`, `pg_writeback_map`, `DEPT: Circular dependency` in changelog | dept.md |
 | Scheduler | kernel/sched/, sched_, schedule, *wakeup* | scheduler.md |
 | Timers | timer_list, timer_setup, mod_timer, del_timer, hrtimer, delayed_work | timers.md |
 | BPF | kernel/bpf/, tools/lib/bpf/, tools/testing/selftests/bpf, bpf, verifier | bpf.md |
